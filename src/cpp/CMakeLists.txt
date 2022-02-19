@@ -4,6 +4,7 @@ execute_process(COMMAND python3 "${CMAKE_CURRENT_LIST_DIR}/../python/pyne2_${PYN
 # setup source files
 set(PYNE2_SRCS
   ${PYNE2_VERSION_HEADER}
+  nucname.cpp
   )
 
 # compile and link library
