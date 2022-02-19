@@ -3,6 +3,8 @@
 // name is for letters  as well (U-235).
 // MCNP is for numerals without the meta-stable flag (92235), as used in MCNP.
 
+#include "nucname_version.h"
+
 #ifndef PYNE_IS_AMALGAMATED
 #include "nucname.h"
 #endif
